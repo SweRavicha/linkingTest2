@@ -1,0 +1,73 @@
+---
+title: "My First R Markdown"
+author: "Swetha Ravichandran"
+date: "07/07/2020"
+output:
+  html_document:
+    df_print: paged
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+### Heading Size, Italics and Boldening of text in R Markdown
+
+For italicising words, use a single asterisk around the word like *this*.
+For boldening words, use double asterisks around the word like **this**.
+Heading size is determined by the number of Hashes in front of it. A single hash is the biggest header size, 2 hashes give a slightly smaller heading and so on.
+This section's heading uses 3 hashes and the headings of the sections above use double hashes.
+
+## To include code chunks in your R Markdown:
+In RStudio, u can use the Insert option and select the lang of the code u want to add like R, Python, SQL, Bash... It will create an empty code chunk.
+```{r}
+mean(c(1,2,3,4))
+```
+ 
+You can also add code chunks by adding 3 reverse ticks '`' and fill your code.
+
+You can also use a shortcut command- Ctrl + Alt +  I. This is to test if it works.
+```{r}
+mean(c(1,2,3,4,5))
+```
+
+To test your code chunk, you can use Ctrl + Enter or the Run button.
+To test multiple lines of code use Ctrl+Shift+Enter or Run button.
+
+## To make bulleted lists:
+ Lists are created by proceeding each perspective bullet point by a single dash, followed by a single space and then at the end of each bullets line give 2 spaces.
+Like '- first bullet  '
+ 
+#### Bullet list to check:
+- My  
+- Name  
+- Is  
+- Swetha  
+
+Not adding 2 spaces after each bullet item may cause some spacing problems.
+
+## To add links:
+Enclose the desired link between <>. Like
+<https://www.coursera.org/learn/data-scientists-tools/lecture/134kE/r-markdown>. It is important to use https/http.
+ 
+
