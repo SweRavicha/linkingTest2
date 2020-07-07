@@ -56,7 +56,7 @@ To test multiple lines of code use Ctrl+Shift+Enter or Run button.
 
 ## To make bulleted lists:
  Lists are created by proceeding each perspective bullet point by a single dash, followed by a single space and then at the end of each bullets line give 2 spaces.
-Like '- first bullet  '
+Like '- first bullet  (2spaces)'
  
 #### Bullet list to check:
 - My  
@@ -68,6 +68,14 @@ Not adding 2 spaces after each bullet item may cause some spacing problems.
 
 ## To add links:
 Enclose the desired link between <>. Like
-<https://www.coursera.org/learn/data-scientists-tools/lecture/134kE/r-markdown>. It is important to use https/http.
+<https://www.coursera.org/learn/data-scientists-tools/lecture/134kE/r-markdown>. Note: It is important to use https/http.
+
+To add links to some text, enclose the text in box brackets [] followed by the link in parantheses (). Like:
+
+[click here](https://www.coursera.org/learn/data-scientists-tools/lecture/134kE/r-markdown)
  
+## To strikethrough text:
+Surround the desired word with 2 tilde.
+
+~~strikedthrough~~
 
